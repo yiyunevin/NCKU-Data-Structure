@@ -10,4 +10,8 @@
   $ ./main testbench0.txt testbench1.txt
   $ ./main testbench2.txt
   ```
-+ 須將二為陣列轉換為一維陣列計算
++ 須將二維陣列轉換為一維陣列計算
+
+## Homework 2
+
+## Homework 3
