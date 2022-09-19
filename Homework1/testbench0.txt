@@ -1,0 +1,10 @@
+HW1   #####testbench0
+
+X = ( size : 2 x 2 )
+1 2
+3 4
+
+Y = ( size : 2 x 2 )
+5 6
+7 8
+
