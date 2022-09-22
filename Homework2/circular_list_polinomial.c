@@ -1,4 +1,3 @@
-/* Usage : ./main testbench0*/
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
@@ -147,7 +146,7 @@ void sortTerm()
         struct Node *check = head->next;
         int swapped = 0;
         int len = getLenth();
-        // printf("Lenth of list: %d\n", len);
+        // printf("\Lenth of list: %d\n", len);
         for (int i=0; i<len-1; i++){         // head->next to last->prev
             prev = head;
             check = head->next;
@@ -255,7 +254,6 @@ void f(FILE *fin, FILE *fout)
     // Simplify 
     printf("Original : \n");
     printList();
-    printf("\n");
 
     simplifyTerm();
     
@@ -265,7 +263,7 @@ void f(FILE *fin, FILE *fout)
     // Output File
     outfileList(fout, filename);
     
-    printf("\nClear List. \n");
+    printf("\nClear List. \n\n");
     clearList();
     //printList();
 
