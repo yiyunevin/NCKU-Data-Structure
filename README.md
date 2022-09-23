@@ -24,7 +24,7 @@ $ ./main testbench2.txt
 
 ## Homework 3
 
-由命令列讀取 testbench 檔案（數量不等），透過 BFS 完成 maze routing 找出以最短路徑連接所有 Terminal 的方法，並將結果輸出至 out.txt 檔案。
+由命令列讀取 testbench 檔案（數量不等），透過 Breadth First Search (BFS) 完成 maze routing 找出以最短路徑連接所有 Terminal 的方法，並將結果輸出至 out.txt 檔案。
 + 依照 x 由小到大、y 由小到大的方式排序各 Terminal 來決定連接先後順序
   + 先連接 T1 和 T2 得到 Path1，再由 T3 找到與 Path1 連接的最短路徑，以此類推
   + 若有 2 個以上的距離起始點相等且皆為最短距離的目標座標，則以 x 較小者優先
